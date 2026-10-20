@@ -1,0 +1,13 @@
+{
+  "name": "dhe-kit",
+  "version": "3.0.0",
+  "private": true,
+  "description": "DHE-KIT, aplikasi lokal tanpa proses build",
+  "scripts": {
+    "test": "node tests/domain.test.cjs && node tests/ui-smoke.cjs",
+    "check": "node --check app.js && node --check domain.js && node --check content.js && node --check assets/runtime.js"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.13"
+  }
+}
